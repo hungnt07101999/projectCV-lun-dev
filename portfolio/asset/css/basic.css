@@ -1,0 +1,27 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box
+}
+html{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #eaecee;
+	color: var(--color-text);
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: var(--color-text);
+}
+:root{
+	--border:1px solid #dce1e4;
+	--color-text:#3c3e41;
+	--gradient:linear-gradient(-45deg, #d000f7,#24bae3);
+	--box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #fff;
+}
+
